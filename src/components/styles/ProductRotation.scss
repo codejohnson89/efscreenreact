@@ -1,0 +1,33 @@
+.m-homepage-product-rotation {
+    padding-top: 1rem;
+    .m-homepage-product-rotation-slide {
+        .pdplink {
+            &:hover {
+                text-decoration: none;
+            }
+           .m-homepage-product-rotation-text {
+               text-align: center;
+               color: #333;
+               padding-top: 10%;
+               .btn {
+                    display: block;
+                    width: 100%;
+                    max-width: 240px;
+                    padding: 1em;
+                    margin: 0 auto 1em;
+                    font-size: 1em;
+                    font-family: "OpenSans-Regular",Helvetica,sans-serif;
+                    letter-spacing: 1px;
+                    line-height: 1em;
+                    text-transform: uppercase;
+                    text-align: center;
+                    cursor: pointer;
+                    color: white;
+                    background-color: #fa3c7a;
+                    border: 1px solid #e4376f;
+                    border-radius: 3px;
+                }
+           } 
+        }
+    }
+}

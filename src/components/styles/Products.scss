@@ -1,0 +1,43 @@
+.m-product-mini {
+    text-align: center;
+
+    a {
+        color: #333;
+        .card {
+            border: none;
+
+            .card-body {
+
+                .m-category-flower-link {
+                    font-size: 14px;
+                    margin-bottom: 0px;
+                }
+
+                .m-product-price {
+                    font-size: 14px;
+                    color: #484848;
+                    margin-bottom: 0px;
+                }
+            }
+        }
+    }
+}
+
+.m-homepage-three-products {
+    .m-homepage-three-products-title {
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .m-homepage-three-products-btn {
+        text-align: center;
+    }
+}
+.m-homepage-five-products {
+    .m-homepage-five-products-title {
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .m-homepage-five-products-btn {
+        text-align: center;
+    }
+}
