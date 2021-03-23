@@ -12,7 +12,7 @@ function CustomModules() {
             <CustomHeadersIntro header="eFlorist | Custom Modules"/>
             <Container>
                 <Row>
-                    <CustomInfoPan
+                    {/* <CustomInfoPan
                         header="About Us | Three Wide"
                         linkPage="/AboutUsThreeWide"
                         linkDoc="/AboutUsThreeWide/doc"
@@ -25,27 +25,14 @@ function CustomModules() {
                         linkDoc="/AboutUsFourWide/doc"
                         version="v. 1.0"
                         text="A bar that contains four blocks of content often used to describe the shop, display store hours, or place widgets for rss feeds, etc..."
-                        />
-                    <CustomInfoPan
-                        header="CustomHTML Windowed | Innard"
-                        linkPage="/CustomHTMLWindowed"
-                        linkDoc="/CustomHTMLWindowed/doc"
-                        version="v. 1.0"
-                        text="A block that can contain any HTML that the user wants."
-                        />
-                    <CustomInfoPan
-                        header="CustomHTML Full | Innard"
-                        linkPage="/CustomHTMLFull"
-                        linkDoc="/CustomHTMLFull/doc"
-                        version="v. 1.0"
-                        text="A block that can contain any HTML that the user wants."
-                        />
+                        /> */}
                     <CustomInfoPan
                         header="Marketing Banner | Innard"
                         linkPage="/MarketingBanner"
                         linkDoc="/MarketingBanner/doc"
                         version="v. 1.0"
                         text="Marketing banner."
+                        code="<MarketingBanner/>"
                         />
                     <CustomInfoPan
                         header="Mason Gallery | Innard"
@@ -53,6 +40,7 @@ function CustomModules() {
                         linkDoc="/MasonGallery/doc"
                         version="v.1.0"
                         text="A Pinterest style photo block that allows for several photos to be automatically arranged."
+                        code="<MasonGallery />"
                         />
                     <CustomInfoPan
                         header="Occasion Tiles | Three Wide"
@@ -60,6 +48,7 @@ function CustomModules() {
                         linkDoc="/OccasionTilesThree/doc"
                         version="v. 1.0"
                         text="A set of three images that can be placed side by side and link to certain occasions."
+                        code="<OccasionTilesThree />"
                         />
                     <CustomInfoPan
                         header="Occasion Tiles | Four Wide"
@@ -67,6 +56,7 @@ function CustomModules() {
                         linkDoc="/OccasionTilesFour/doc"
                         version="v. 1.0"
                         text="A set of four images that can be placed side by side and link to certain occasions."
+                        code="<OccasionTilesFour />"
                         />
                     <CustomInfoPan
                         header="Occasion Tiles | Six Wide"
@@ -74,6 +64,7 @@ function CustomModules() {
                         linkDoc="/OccasionTilesSix/doc"
                         version="v. 1.0"
                         text="A set of five images that can be placed side by side and link to certain occasions."
+                        code="<OccasionTilesSix />"
                         />
                     <CustomInfoPan
                         header="Parallax | Innard"
@@ -81,6 +72,7 @@ function CustomModules() {
                         linkDoc="/Parallax/doc"
                         version="v. 1.0"
                         text="A section of the page with a parallax background and an HTML block."
+                        code="<Parallax />"
                         />
                     <CustomInfoPan
                         header="Product | Product Rotation"
@@ -88,6 +80,7 @@ function CustomModules() {
                         linkDoc="/ProductRotation/doc"
                         version="v. 1.0"
                         text="A set of six large rotating product images."
+                        code="<ProductRotation />"
                         />
                     <CustomInfoPan
                         header="Product | Product Grid"
@@ -95,10 +88,11 @@ function CustomModules() {
                         linkDoc="/ProductGrid/doc"
                         version="v. 1.0"
                         text="A list of products with no containers, just products."
+                        code="<ProductGrid />"
                         />
                     <CustomInfoPan
                         header="Product | Sliding Product Rows"
-                        linkPage="/SlidingProductRows"
+                        linkPage="/SlidingProudctRows"
                         linkDoc="/SlidingProductRows/doc"
                         version="v. 1.0"
                         text="A set of products that can be placed into a carousel and navigated through via left and right navigation arrows."
@@ -109,6 +103,7 @@ function CustomModules() {
                         linkDoc="/ThreeProductsWide/doc"
                         version="v. 1.0"
                         text="A homepage module that looks like the regular feature module except it is only three wide instead of five. It also has larger images."
+                        code="<ProductThreeWide />"
                         />
                     <CustomInfoPan
                         header="Product | Max Products"
@@ -116,6 +111,7 @@ function CustomModules() {
                         linkDoc="/MaxProducts/doc"
                         version="v. 1.0"
                         text="This is a max products module that displays five products."
+                        code="<ProductMaxProducts />"
                         />
                     <CustomInfoPan
                         header="Product | Max Products Three Wide"
@@ -123,13 +119,15 @@ function CustomModules() {
                         linkDoc="/MaxProductsThreeWide/doc"
                         version="v. 1.0"
                         text="This is a max products module that displays three products wide instead of five."
+                        code="<ProductMaxThreeWide />"
                         />
                     <CustomInfoPan
                         header="Quick Links | Category Bar"
-                        linkPage="/CategoryBar"
-                        linkDoc="/CategoryBar/doc"
+                        linkPage="/QuickLinks"
+                        linkDoc="/QuickLinks/doc"
                         version="v. 1.0"
                         text="A bar that contains a few links directly to categories that can be displayed on the homepage."
+                        code="<QuickLinks/>"
                         />
                     <CustomInfoPan
                         header="Quick Links | Slideshow plus Category Bar"
@@ -137,6 +135,7 @@ function CustomModules() {
                         linkDoc="/SlideshowCategoryBar/doc"
                         version="v. 1.0"
                         text="A vertical version of the regular category bar on the left side, and a slideshow on the right that can hold any image."
+                        code="<SlideshowCategoryBar />"
                         />
                     <CustomInfoPan
                         header="Slideshow | Full Screen"
@@ -144,13 +143,7 @@ function CustomModules() {
                         linkDoc="/SlideshowFull/doc"
                         version="v. 1.0"
                         text="A slideshow that any image can be placed in that stretches the full width of the page."
-                        />
-                    <CustomInfoPan
-                        header="Slideshow | Windowed"
-                        linkPage="/SlideshowWindow"
-                        linkDoc="/SlideshowWindow/doc"
-                        version="v. 1.0"
-                        text="A slideshow that any image can be placed in that is contained by the a set width."
+                        code="<SlideshowFull />"
                         />
                     <CustomInfoPan
                         header="Video | Double Bar"
@@ -158,14 +151,15 @@ function CustomModules() {
                         linkDoc="/VideoBar/doc"
                         version="v. 1.0"
                         text="A bar that can hold two videos side by side."
+                        code="<VideoBar />"
                         />
-                    <CustomInfoPan
+                    {/* <CustomInfoPan
                         header="Video | Video Background"
-                        linkPage="/VideoBG"
+                        linkPage="/VideoBackground"
                         linkDoc="/VideoBG/doc"
                         version="v. 1.0"
                         text="A section similar to the parallax except with a video background."
-                        />
+                        /> */}
                 </Row>
             </Container>
         </div>

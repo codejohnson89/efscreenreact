@@ -1,4 +1,6 @@
 import React from 'react';
+// import './components/styles-efscreen/efscreen.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import './App.scss';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
@@ -29,6 +31,12 @@ import ProductRotation from './components/views/custom-modules/product-rotation/
 import AboutUs from './components/views/misc-pages/about-us/AboutUs';
 import MarketingBanner from './components/views/custom-modules/marketingBanner/MarketingBanner';
 import Immersion from './components/views/homepages/Immersion/Immersion';
+import VideoBackground from './components/views/custom-modules/videoBackground/VideoBackground';
+import SlidingProductRows from './components/views/custom-modules/sliding-products-row/SlidingProductRows';
+import MasonGallery from './components/views/custom-modules/mason-gallery/MasonGallery';
+import ProductGrid from './components/views/custom-modules/product-grid/ProductGrid';
+import Parallax from './components/views/custom-modules/parallax/Parallax';
+import QuickLinks from './components/views/custom-modules/quick-links/QuickLinks';
 
 
 function App() {
@@ -62,6 +70,12 @@ function App() {
         <Route path="/AboutUs" exact component={AboutUs} />
         <Route path="/MarketingBanner" exact component={MarketingBanner}/>
         <Route path="/Immersion" exact component={Immersion} />
+        <Route path="/VideoBackground" exact component={VideoBackground} />
+        <Route path="/SlidingProudctRows" exact component={SlidingProductRows} />
+        <Route path="/MasonGallery" exact component={MasonGallery} />
+        <Route path="/ProductGrid" exact component={ProductGrid} />
+        <Route path="/Parallax" exact component={Parallax} />
+        <Route path="/QuickLinks" exact component={QuickLinks} />
       </Switch>
     </Router>
   );

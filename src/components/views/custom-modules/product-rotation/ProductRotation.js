@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 function ProductRotation() {
     return (        
-                <Carousel className="m-homepage-product-rotation">
+                <Carousel className="m-homepage-product-rotation" interval={3000}>
                     <Carousel.Item className="m-homepage-product-rotation-slide">
                         <Container>
                             <Row>
@@ -30,7 +30,7 @@ function ProductRotation() {
                             <Row>
                                 <Link to="/" className="pdplink row">
                                     <Col md={6} sm={12} className="m-homepage-product-rotation-img">
-                                        <Figure><Image src={product2} rounded/></Figure>
+                                        <Figure><Image src={product} rounded/></Figure>
                                     </Col>
                                     <Col md={6} sm={12} className="m-homepage-product-rotation-text">
                                         <h2 class="m-homepage-product-title">Harvest Beauty</h2>

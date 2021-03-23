@@ -1,6 +1,4 @@
 import React from 'react';
-
-
 import CustomHeadersIntro from './modules/CustomHeadersIntro';
 import Header from './modules/Header';
 import { Container, Row, Col } from 'react-bootstrap';
@@ -16,14 +14,14 @@ function Home () {
                     <h1> What is this for? <small> Describing the guide</small></h1>
                 </Col>
                 <Col sm={12}>
-                    <p>
-      Below you will find brief decriptions of the sections within this site and their use within the whole of eFlorist.  There is also an explanation of the frameworks and technologies used in this project.
-    </p></Col>
+                    <p>Below you will find brief decriptions of the sections within this site and their use within the whole of eFlorist.  There is also an explanation of the frameworks and technologies used in this project.</p>
+                </Col>
                 <br/><br/>
                 <Col sm={12}><h2>Dependencies. <small>Frameworks and technology</small></h2></Col>
-                <Col sm={12}><p><a href="https://www.ruby-lang.org">Ruby</a> - A dynamic, open source programming language with a focus on simplicity and productivity.</p></Col>
-                <Col sm={12}><p><a href="http://get-serve.com">Serve</a> - A ruby framework for fast template development.</p></Col>
-                <Col sm={12}><p><a href="http://jquery.com">jQuery</a> - Javascript Library.</p></Col>
+                <Col sm={12}><p><a href="https://reactjs.org/">React JS</a> - A JavaScript library for building user interfaces</p></Col>
+                <Col sm={12}><p><a href="https://reactrouter.com/">React Router</a> - React Router is a collection of navigational components that compose declaratively with your application.</p></Col>
+                <Col sm={12}><p><a href="https://react-bootstrap.github.io/">React-Bootstrap</a> - React-Bootstrap replaces the Bootstrap JavaScript.</p></Col>
+                <Col sm={12}><p><a href="https://nodejs.org/en/">Node</a> - Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.</p></Col>
                 <Col sm={12}><p><a href="http://sass-lang.com/">SASS</a> - Professional grade CSS extension language.</p></Col>
                 <Col sm={12}><p><a href="http://modernizr.com/">Modernizr</a> - A Javascript libary to detect and optimize HTML5 &amp; CSS3 features.  We're also using Modernizr's .load function to lazy load content that isn't immediately necessary.</p></Col>
             </Row>
