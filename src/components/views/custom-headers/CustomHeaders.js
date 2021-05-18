@@ -22,7 +22,7 @@ function CustomHeaders() {
                     />
                 <CustomInfoPan
                     header="Header | Logo Centered"
-                    linkPage="/LogoCentered"
+                    linkPage="/LogoCenteredHeader"
                     linkDoc="/LogoCentered/doc"
                     version="v. 1.0"
                     text="A larger than average logo that can be centered in the header."

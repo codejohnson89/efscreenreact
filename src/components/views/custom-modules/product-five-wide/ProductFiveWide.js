@@ -10,13 +10,11 @@ function ProductFiveWide() {
             <Col sm={12} className="m-homepage-five-products-title">
                 <h2 className="header-wrap">here's what mom really wants</h2>
             </Col>
-            <Col sm={1}></Col>
-            <Products className="m-product" col="2"/>
-            <Products className="m-product" col="2"/>
-            <Products className="m-product" col="2"/>
-            <Products className="m-product" col="2"/>
-            <Products className="m-product" col="2"/>
-            <Col sm={1}></Col>
+            <Products className="m-product"/>
+            <Products className="m-product"/>
+            <Products className="m-product"/>
+            <Products className="m-product"/>
+            <Products className="m-product"/>
             <Col className="m-homepage-three-products-btn" sm={12}><Button>Shop All Mother's Day Bouquets</Button></Col>
         </Row>
     </Container>

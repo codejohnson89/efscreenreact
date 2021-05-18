@@ -1,12 +1,13 @@
 import React from 'react';
 import { Container, Row } from 'react-bootstrap';
+import image from '../../../../images/occasion-tiles/banner.jpg';
 
 function MarketingBanner() {
     return (
         <Container className="marketingBanner">
             <Row>
                 <figure>
-                    <img className="img-fluid" src="https://assets.eflorist.com/images/campaigns/mothers_day/homepage_banner_mothers_day_video.jpg"/>
+                    <img className="img-fluid" src={image}/>
                 </figure>
             </Row>
         </Container>

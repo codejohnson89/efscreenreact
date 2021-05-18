@@ -37,6 +37,7 @@ import MasonGallery from './components/views/custom-modules/mason-gallery/MasonG
 import ProductGrid from './components/views/custom-modules/product-grid/ProductGrid';
 import Parallax from './components/views/custom-modules/parallax/Parallax';
 import QuickLinks from './components/views/custom-modules/quick-links/QuickLinks';
+import LogoCenteredHeader from './components/views/custom-headers/logo-centered/LogoCenteredHeader';
 
 
 function App() {
@@ -76,6 +77,7 @@ function App() {
         <Route path="/ProductGrid" exact component={ProductGrid} />
         <Route path="/Parallax" exact component={Parallax} />
         <Route path="/QuickLinks" exact component={QuickLinks} />
+        <Route path="/LogoCenteredHeader" exact component={LogoCenteredHeader} />        
       </Switch>
     </Router>
   );

@@ -14,7 +14,8 @@
     "react-lazyload": "^3.2.0",
     "react-photo-masonry": "^8.0.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.3.0"
+    "react-scripts": "3.3.0",
+    "swiper": "^6.6.1"
   },
   "scripts": {
     "start": "react-scripts start",

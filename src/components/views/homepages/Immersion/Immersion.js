@@ -6,6 +6,7 @@ import { Row, Container, Col, Button } from 'react-bootstrap';
 import ProductFiveWide from '../../custom-modules/product-five-wide/ProductFiveWide';
 import { Link } from 'react-router-dom';
 import Products from '../../../modules/Products';
+import Footer from '../../global/global/Footer/footer';
 
 function Immersion() {
     return (
@@ -13,7 +14,6 @@ function Immersion() {
             <SlideshowFull/>
             <ProductFiveWide/>
             <MarketingBanner/>
-            <HomepageTile /> 
             <Container>
                 <Row>
                     <Col sm={4} className="m-special-day">
@@ -22,13 +22,23 @@ function Immersion() {
                         <br></br>
                         <Button><Link to="/">Make Someone Smile</Link></Button>
                     </Col>
-                    <Col sm={8} className="m-special-day-bouquets">
+                    <Col sm={8} className="m-special-day-bouquets row">
                         <Products col={4}/>
                         <Products col={4}/>
                         <Products col={4}/>
                     </Col>
                 </Row>
-            </Container>               
+            </Container>
+            <Container>
+                <Row>
+                    <div class="m-homepage-middle-promo">
+                        <p class="m-homepage-middle-promo-text text-center">For the best and freshest flowers in OKLAHOMA CITY, Micah 7 has exactly what you’re looking for!  Check out our wide selection of flower arrangements to make your next occasion memorable.</p>
+                    </div>
+                </Row>
+            </Container>
+            <HomepageTile />
+            <ProductFiveWide/>
+            <Footer />              
         </>
     )
 }
