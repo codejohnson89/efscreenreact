@@ -1,5 +1,4 @@
 import React from 'react';
-// import './components/styles-efscreen/efscreen.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import './App.scss';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';

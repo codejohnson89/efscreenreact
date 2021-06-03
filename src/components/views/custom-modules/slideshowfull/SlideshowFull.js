@@ -1,54 +1,37 @@
 import React from 'react';
-import { Container, Row, Carousel } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 import corgi from '../../../../images/slideshows/corgi.jpg';
 import fall from '../../../../images/slideshows/fall.jpg';
 import flower from '../../../../images/slideshows/flower.jpg';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import SwiperCore, { Autoplay, Navigation } from 'swiper'
 
+import 'swiper/swiper.scss';
+import 'swiper/components/navigation/navigation.scss';
+
+SwiperCore.use([Navigation, Autoplay])
 
 function SlideshowFull() {
 
     return (
-        <Container className="m-homepage-rotation-full">
+        <>
+        <Container>
             <Row>
-                <Carousel indicators={false}>
-                    <Carousel.Item>
-                        <img
-                        className="d-block w-100"
-                        src={corgi}
-                        alt="First slide"
-                        />
-                        <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img
-                        className="d-block w-100"
-                        src={fall}
-                        alt="Third slide"
-                        />
-
-                        <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img
-                        className="d-block w-100"
-                        src={flower}
-                        alt="Third slide"
-                        />
-
-                        <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                </Carousel>
+                <Swiper
+                    spaceBetween={50}
+                    slidesPerView={1}
+                    navigation
+                    loop
+                    autoplay
+                    onSlideChange={() => console.log('slide change')}
+                    onSwiper={(swiper) => console.log(swiper)}>
+                    <SwiperSlide><img className="d-block w-100" src={corgi} alt="First slide"/></SwiperSlide>
+                    <SwiperSlide><img className="d-block w-100" src={fall} alt="First slide"/></SwiperSlide>
+                    <SwiperSlide><img className="d-block w-100" src={flower} alt="First slide"/></SwiperSlide>
+                </Swiper>
             </Row>
         </Container>
+        </>
     )
 }
 

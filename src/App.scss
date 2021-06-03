@@ -1,7 +1,13 @@
 @import './components/styles/customheaderintro.scss';
 @import './components/styles/HomepageTile.scss';
+@import './components/styles/marketingBanner';
 @import './components/styles/OccasionTilesThree.scss';
 @import './components/styles/OccasionTilesFour.scss';
 @import './components/styles/OccasionTilesSix.scss';
 @import './components/styles/ProductRotation.scss';
 @import './components/styles/Products.scss';
+
+
+body {
+    font-size: 13px;
+}

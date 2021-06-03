@@ -1,0 +1,52 @@
+@import './util';
+
+// small mobile devices such as both large and small phones
+@mixin small() {
+    @media screen and (max-width: $small) {
+        @content;
+    }
+}
+// larger phones and practically all tablets
+@mixin medium() {
+    @media screen and (max-width: $medium) {
+        @content;
+    }
+}
+@mixin min-medium() {
+    @media screen and (min-width: $medium) {
+        @content;
+    }
+}
+// small mobile devices such as both large and small phones
+@mixin large() {
+    @media screen and (max-width: $large) {
+        @content;
+    }
+}
+@mixin min-large() {
+    @media screen and (min-width: $large) {
+        @content;
+    }
+}
+// small mobile devices such as both large and small phones
+@mixin xlarge() {
+    @media screen and (max-width: $xlarge) {
+        @content;
+    }
+}
+@mixin min-xlarge() {
+    @media screen and (min-width: $xlarge) {
+        @content;
+    }
+}
+// small mobile devices such as both large and small phones
+@mixin xxlarge() {
+    @media screen and (max-width: $xxlarge) {
+        @content;
+    }
+}
+@mixin min-xxlarge() {
+    @media screen and (min-width: $xxlarge) {
+        @content;
+    }
+}

@@ -1,0 +1,92 @@
+@import '../../utils/mixins';
+
+@include min-large {
+    .standard.navbar {
+        height: 9em;
+
+        .searchBar {
+            position: absolute;
+            right: 0;
+            bottom: 4em;
+        }
+        .navbar-brand {
+            position: relative;
+            top: 1em;
+        }
+
+        .navbar-nav {
+            position: relative;
+            top: 4em;
+        }
+        #basic-navbar-nav {
+            .right-nav {
+                top: unset;
+                bottom: 1em;
+                right: 17em;
+            }
+        }
+
+
+    }
+}
+
+.m-homepage-five-products {
+    .row {
+        padding: 3em 0;
+        .m-homepage-three-products-btn {
+            text-align: center;
+        }
+    }
+}
+
+.marketingBanner {
+    .row {
+        padding-top: 3em;
+    }
+}
+
+.m-special-day {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+        border-bottom: 1px dashed #333;
+        padding-bottom: .5em;
+        margin-bottom: 1em;
+        text-align: center;
+    }
+    p {
+        text-align: center;
+    }
+
+    .btn {
+        max-width: 240px;
+        a {
+        color: #fff;
+        }
+    }
+}
+
+.m-homepage-middle-promo {
+    background-color: #d8f7d8;
+    .m-homepage-middle-promo-text {
+        color: #333;
+        max-width: 80%;
+        margin: 0 auto;
+        padding: 1.5em;
+    }
+}
+
+.m-features {
+    .row {
+        padding-top: 3em;
+    }
+}
+
+.m-footer {
+    p, h1, h2, h3, h4, h5, a {
+        color: #fff !important;
+    }
+}
