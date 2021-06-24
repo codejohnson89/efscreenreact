@@ -9,7 +9,6 @@ import CustomInfoPan from '../../modules/CustomInfoPan';
 function CustomHeaders() {
     return (
         <div>
-        <Header/>
         <CustomHeadersIntro header="eFlorist | Custom Header Modules"/>
         <Container>
             <Row>

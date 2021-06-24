@@ -37,11 +37,15 @@ import ProductGrid from './components/views/custom-modules/product-grid/ProductG
 import Parallax from './components/views/custom-modules/parallax/Parallax';
 import QuickLinks from './components/views/custom-modules/quick-links/QuickLinks';
 import LogoCenteredHeader from './components/views/custom-headers/logo-centered/LogoCenteredHeader';
+import Help from './components/views/misc-pages/help/Help';
+import Header from './components/modules/Header';
 
 
 function App() {
   return (
+    <>
     <Router>
+    <Header />
        <Switch>
         <Route path='/' exact component={Home} />
         <Route path='/custom-headers' exact component={CustomHeaders} />
@@ -76,9 +80,12 @@ function App() {
         <Route path="/ProductGrid" exact component={ProductGrid} />
         <Route path="/Parallax" exact component={Parallax} />
         <Route path="/QuickLinks" exact component={QuickLinks} />
-        <Route path="/LogoCenteredHeader" exact component={LogoCenteredHeader} />        
+        <Route path="/LogoCenteredHeader" exact component={LogoCenteredHeader} />
+        <Route path="/help" exact component={Help} />     
       </Switch>
     </Router>
+ 
+    </>
   );
 }
 

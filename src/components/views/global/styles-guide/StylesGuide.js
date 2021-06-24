@@ -7,7 +7,6 @@ import CustomHeadersIntro from '../../../modules/CustomHeadersIntro';
 function StylesGuide() {
     return (
         <div>
-            <Header />
             <CustomHeadersIntro header="eFlorist | Styles Guide"/>
             <Container>
                 <Row>

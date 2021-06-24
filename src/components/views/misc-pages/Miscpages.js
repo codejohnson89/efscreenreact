@@ -8,7 +8,6 @@ import CustomInfoPan from '../../modules/CustomInfoPan';
 function Miscpages() {
     return (
         <div>
-            <Header/>
             <CustomHeadersIntro header="eFlorist | Custom Modules"/>
             <Container>
                 <Row>

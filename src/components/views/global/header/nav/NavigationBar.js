@@ -5,6 +5,7 @@ import { login, logout } from '../../../../../Redux/auth/authLoginSlice';
 import logo from '../../../../../images/headerLogo/logo.png';
 import { FormControl } from 'react-bootstrap';
 import '../../../../styles/navbarStyles/standard/standard.scss';
+import { Link } from 'react-router-dom';
 
 const NavigationBar = () => {
     const loggedIn = useSelector(state => state.authLogin.value)
@@ -45,7 +46,7 @@ const NavigationBar = () => {
                             <Nav.Link eventKey="link-1">About Us</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link eventKey="link-2">Help</Nav.Link>
+                            <Nav.Link eventKey="link-2"><Link to="help">Help</Link></Nav.Link>
                         </Nav.Item>                    
                     </Nav>
                     <Nav className="right-nav">

@@ -6,7 +6,6 @@ import { Container, Row, Col } from 'react-bootstrap';
 function Home () {
     return (
         <div>
-            <Header/>
             <CustomHeadersIntro header="eFlorist | Site Guide" additional="The eFlorist Redesign"/>
         <Container>           
             <Row>

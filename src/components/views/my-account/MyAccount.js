@@ -8,7 +8,6 @@ import CustomInfoPan from '../../modules/CustomInfoPan';
 function MyAccount() {
     return (
         <div>
-            <Header/>
             <CustomHeadersIntro header="eFlorist | Custom Modules"/>
             <Container>
                 <Row>
