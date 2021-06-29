@@ -5,6 +5,27 @@ import Header from '../../modules/Header';
 import CustomHeadersIntro from '../../modules/CustomHeadersIntro';
 import CustomInfoPan from '../../modules/CustomInfoPan';
 
+/*
+    All in all, you've obviously done a lot of work. It's hard to get here.
+    Nice Job!
+
+    There are lots of things you could make better, but this is a great start
+    for parity.
+
+    Some things that could help out the dev experience:
+        Easy Wins:
+            - ESLint
+            - exporting named components via index.js file in large folder
+            - Use Bootstrap to it's full ability by making it do the work for you.
+            - Identify some components you can generalize.
+
+        Need careful consideration, but highly recommended:
+            - TypeScript
+            - Ditching Bootstrap and switching to Chakra-UI
+            - ejecting and using webpack instead for more control.
+
+*/
+
 function Wedding() {
     return (
         <div>

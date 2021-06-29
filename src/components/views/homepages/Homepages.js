@@ -5,6 +5,7 @@ import Header from '../../modules/Header';
 import CustomHeadersIntro from '../../modules/CustomHeadersIntro';
 import CustomInfoPan from '../../modules/CustomInfoPan';
 
+// great place to have an array here, and map over it for all of these CustomInfoPan components
 
 function Homepages() {
     return (

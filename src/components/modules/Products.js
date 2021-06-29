@@ -4,7 +4,7 @@ import { Col, Card } from 'react-bootstrap';
 import cat_bouq_07 from '../../../src/images/product/cat_bouq_07.png';
 import { Link } from 'react-router-dom';
 
-function Products() {
+export const Products = () => {
     return (
         <Col className="m-product-mini">
             <Link to="/">
@@ -21,5 +21,3 @@ function Products() {
 
     )
 }
-
-export default Products
