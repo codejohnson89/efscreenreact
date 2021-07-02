@@ -70,8 +70,8 @@ function Homepages() {
                     text="Homepage with a full-width slider."
                     />
                 <CustomInfoPan
-                    header="Homepage | Immersion Carousel"
-                    linkPage="/immersioncarousel"
+                    header="Homepage | Carousel"
+                    linkPage="/carousel"
                     linkDoc="/immersioncarousel/doc"
                     version="v. 1.0"
                     text="Homepage with a full-width slider with a product carousel underneath."

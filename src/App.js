@@ -30,6 +30,7 @@ import ProductRotation from './components/views/custom-modules/product-rotation/
 import AboutUs from './components/views/misc-pages/about-us/AboutUs';
 import MarketingBanner from './components/views/custom-modules/marketingBanner/MarketingBanner';
 import Immersion from './components/views/homepages/Immersion/Immersion';
+import Carousel from './components/views/homepages/Carousel/Carousel';
 import VideoBackground from './components/views/custom-modules/videoBackground/VideoBackground';
 import SlidingProductRows from './components/views/custom-modules/sliding-products-row/SlidingProductRows';
 import MasonGallery from './components/views/custom-modules/mason-gallery/MasonGallery';
@@ -74,6 +75,7 @@ function App() {
         <Route path="/AboutUs" exact component={AboutUs} />
         <Route path="/MarketingBanner" exact component={MarketingBanner}/>
         <Route path="/Immersion" exact component={Immersion} />
+        <Route path="/Carousel" exact component={Carousel} />
         <Route path="/VideoBackground" exact component={VideoBackground} />
         <Route path="/SlidingProudctRows" exact component={SlidingProductRows} />
         <Route path="/MasonGallery" exact component={MasonGallery} />
