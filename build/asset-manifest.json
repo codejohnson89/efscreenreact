@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e0883a1c.chunk.css",
+    "main.js": "/static/js/main.95b8f97f.chunk.js",
+    "main.js.map": "/static/js/main.95b8f97f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.bd18d78b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.bd18d78b.js.map",
+    "static/css/2.ae944e3d.chunk.css": "/static/css/2.ae944e3d.chunk.css",
+    "static/js/2.a194b123.chunk.js": "/static/js/2.a194b123.chunk.js",
+    "static/js/2.a194b123.chunk.js.map": "/static/js/2.a194b123.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.ad4c2ca1646f45b7e59eafc2869a44df.js": "/precache-manifest.ad4c2ca1646f45b7e59eafc2869a44df.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.ae944e3d.chunk.css.map": "/static/css/2.ae944e3d.chunk.css.map",
+    "static/css/main.e0883a1c.chunk.css.map": "/static/css/main.e0883a1c.chunk.css.map",
+    "static/js/2.a194b123.chunk.js.LICENSE": "/static/js/2.a194b123.chunk.js.LICENSE",
+    "static/media/banner.jpg": "/static/media/banner.c02bd424.jpg",
+    "static/media/beach.jpg": "/static/media/beach.8efd579e.jpg",
+    "static/media/cat_bouq_07.png": "/static/media/cat_bouq_07.4cfdcd78.png",
+    "static/media/corgi.jpg": "/static/media/corgi.d433776d.jpg",
+    "static/media/fall.jpg": "/static/media/fall.b13529d5.jpg",
+    "static/media/flower.jpg": "/static/media/flower.e9a9ce02.jpg",
+    "static/media/product.jpg": "/static/media/product.9f47a03d.jpg",
+    "static/media/tree.jpg": "/static/media/tree.ff5c99a4.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bd18d78b.js",
+    "static/css/2.ae944e3d.chunk.css",
+    "static/js/2.a194b123.chunk.js",
+    "static/css/main.e0883a1c.chunk.css",
+    "static/js/main.95b8f97f.chunk.js"
+  ]
+}
