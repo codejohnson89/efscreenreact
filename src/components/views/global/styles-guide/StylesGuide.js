@@ -1,7 +1,6 @@
 import React from 'react';
-import { Container, Row, Col, Jumbotron, Button } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 
-import Header from '../../../modules/Header';
 import CustomHeadersIntro from '../../../modules/CustomHeadersIntro';
 
 function StylesGuide() {

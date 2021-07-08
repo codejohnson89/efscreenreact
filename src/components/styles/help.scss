@@ -1,3 +1,8 @@
+// Lots of tiny scss files here that could just be JS objects
+// in a component's file. It's fine if it works right now, but
+// I would stray away from this as colocation creates better
+// readability, and less strain on cognitive complexity.
+
 #helpPage {
     .header {
         background-color: #7fcf29;
