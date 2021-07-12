@@ -6,6 +6,7 @@ import { Row, Container, Col, Button } from 'react-bootstrap';
 import ProductFiveWide from '../../custom-modules/product-five-wide/ProductFiveWide';
 import { Link } from 'react-router-dom';
 import Products from '../../../modules/Products';
+import GoogleMap from '../../custom-modules/google-map/googlemap';
 
 const Content = () => {
     return (
@@ -35,6 +36,7 @@ const Content = () => {
         </Container>
         <HomepageTile />
         <ProductFiveWide/>
+        <GoogleMap />
         </>
     )
 }
